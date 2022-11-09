@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="번호"/>
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="제목"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="작성자"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="추천수"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="20">
+
+        <EditText
+            android:id="@+id/edtNumResult"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/edtTitleResult"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/edtWriterResult"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/edtLikeResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/edtNum"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/edtTitle"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/edtWriter"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/edtLike"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btnInit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="초기화" />
+
+        <Button
+            android:id="@+id/btnInsert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="입력" />
+
+        <Button
+            android:id="@+id/btnSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="조회" />
+
+    </LinearLayout>
+
+</LinearLayout>
