@@ -1,4 +1,4 @@
-# 2022-2-catch DB
+# 2022-2-catchDB
 
   * catch_test02
     + 데이터 셋 준비
