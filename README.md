@@ -1,6 +1,6 @@
 # 2022-2-catch 
 
-  * catch_test02
+    * catch_test02
    + 데이터 셋 준비
    + DB연동 및 DB 입력/출력
   * catch_test12
