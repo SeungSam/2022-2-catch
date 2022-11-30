@@ -1,5 +1,4 @@
-# 2022-2-catch
-DB
+# 2022-2-catch 
 
 ## catch_test02
   DB연동 및 DB 입력/출력
