@@ -1,6 +1,6 @@
 # 2022-2-catch 
 
-## catch_test02
+* catch_test02
    * DB연동 및 DB 입력/출력
 ## catch_test12
   DB연동 및 DB 입력/출력 -> 리스트뷰 형식(커스텀 리스트뷰)
