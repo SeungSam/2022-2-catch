@@ -1,9 +1,9 @@
 # 2022-2-catch 
 
-FILE : catch_test02
+*catch_test02
   + 데이터 셋 준비
   + DB연동 및 DB 입력/출력
-FILE : catch_test12
+*catch_test12
   + DB연동 및 DB 입력/출력 -> 리스트뷰 형식(커스텀 리스트뷰)
   + 입력 : 글번호, 글제목
   + 추가 : DB에 추가
