@@ -1,0 +1,7 @@
+can
+glass
+paper
+pet
+plastic
+styrofoam
+vinyl
